@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./bootstrap-5.2.3-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/Ecommerce.css">
+<link rel="stylesheet" href="./animate-css-animate.css-e8c4fab/animate.min.css">
+
+  <style>
+    body {
+      background-color: whitesmoke;
+      font-family: cursive;
+      transition: 10s;
+    }
+.underLineOnHover{
+  font-size: 17px;
+}
+
+    .background {
+      background-image: url("./Images/1679018465457.jpg");
+      background-attachment: fixed;
+      margin-left: 0;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      background-color: rgba(0, 0, 0, 0.226);
+      
+    }
+    /* This only changes this particular animation duration */
+.animate__animated.animate__zoomInDown {
+  --animate-duration: 2.0s;
+}
+
+/* This changes all the animations globally */
+:root {
+  --animate-duration: 1000ms;
+  --animate-delay: 0.9s;
+}
+
+
+    .background-text {
+      margin-left: 150px;
+      padding-right: 150px;
+      background-color: rgba(0, 0, 0, 0.447);
+
+    }
+
+    .nav-link:hover {
+      border-bottom: 4px solid  rgb(255, 200, 0);
+      border-radius: 20px 0px 0px 20px;
+      font-size: 23px;
+      color: rgb(255, 200, 0);
+      padding-bottom: 0px;
+    }
+.block:hover{
+  font-size: 20px;
+  border: none !important;
+  
+}
+    .img {
+      padding: 40px;
+      box-shadow: 16px 2px 20px 0px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 2rem;
+      margin: 0;
+    }
+
+    .card-single {
+      display: flex;
+      justify-content: space-between;
+      background: #fff;
+      padding: 2rem;
+      border-radius: 2px;
+      width: 265px;
+      margin-top: 2rem;
+      box-shadow: 16px 2px 20px 0px;
+      margin: 0;
+
+
+    }
+
+    .navbar-collapse li {
+
+      padding-top: 0px;
+      padding-left: 5px;
+      font-size: 20px;
+    }
+.nxt img{
+  padding: 30px;
+  box-shadow: 10px 2px 20px 0px;
+}
+
+    .eco-mart {
+      background-image: url("./Images/1679018446955.jpg");
+      padding-top: 130px;
+      padding-bottom: 180px;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-blend-mode: darken;
+      background-color: rgba(0, 0, 0, 0.121);
+    }
+
+    .eco-mart h2 {
+      width: fit-content;
+      padding: 20px;
+      align-items: center;
+      text-align: center;
+      margin-left: 450px;
+      background-color: rgba(0, 0, 0, 0.463);
+    }
+
+    .eco-mart h4 {
+      margin-left: 640px;
+      padding: 15px;
+      font-size: 30px;
+      background-color: rgba(0, 0, 0, 0.063);
+      border: 0px solid green;
+      border-radius: 20px;
+      width: fit-content;
+    }
+
+    .navbar {
+      margin-top: 50px;
+    }
+
+    .container-fluid p {
+      font-style: oblique;
+    }
+
+    .link {
+      font-style: normal;
+    }
+
+    .logo {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    main {
+      border: 3px sol;
+    }
+    
+
+    .aa {
+      background-color: black;
+      box-shadow: 10px 4px 4px 0px;
+    }
+    .user{
+    align-items: center;
+
+}
+.user img{
+    border-radius: 50%;
+margin-right: 1rem;    
+}
+
+
+    .wwe{
+    
+      display: flex;
+    }
+    .rev{
+      border: 0px solid green;
+      width: 100px;
+      
+    }
+    .review{
+      border-radius: 50%;
+    }
+    body{
+    background-color:whitesmoke;
+}
+
+#navbar {
+    background-color: #000;
+    color: #FFFFFF;
+}
+
+.row1{
+    padding-top: 10px;
+    padding-right: 50px;
+}
+
+.row2 {
+    padding-bottom: 20px;
+}
+
+.navbar-input {
+    padding: 11px 16px;
+    border-radius: 2px 0 0 2px;
+    border: 0 none;
+    outline: 0 none;
+    font-size: 15px;
+}
+
+.navbar-button {
+    background-color: #ffe11b;
+    border: 1px solid #ffe11b;
+    border-radius: 0 2px 2px 0;
+    color: #565656;
+    padding: 10px 0;
+    height: 45px;
+    cursor: pointer;
+}
+
+.cart-button {
+    background-color: #808080;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .23), inset 1px 1px 0 0 hsla(0, 0%, 100%, .2);
+    padding: 10px 0;
+    text-align: center;
+    height: 41px;
+    border-radius: 2px;
+    font-weight: 500;
+    width: 120px;
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+    color: inherit;
+    border: none;
+    outline: none;
+}
+
+.cart-button:hover{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.cart-svg {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.item-number {
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, .1);
+    height: 20px;
+    padding: 3px 6px;
+    font-weight: 500;
+    display: inline-block;
+    color: #fff;
+    line-height: 12px;
+    margin-left: 10px;
+}
+
+.upper-links {
+    display: inline-block;
+    padding: 0 11px;
+    line-height: 23px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0;
+    color: inherit;
+    border: none;
+    outline: none;
+    font-size: 12px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+.dropdown:hover {
+    background-color: #fff;
+}
+
+.dropdown:hover .links {
+    color: #000;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    display: none;
+    background-color: #fff;
+    color: #333;
+    left: 0px;
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0 4px 8px -3px #555454;
+    margin: 0;
+    padding: 0px;
+}
+
+.links {
+    color: #fff;
+    text-decoration: none;
+}
+
+.links:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.profile-links {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 1px solid #e9e9e9;
+    box-sizing: border-box;
+    display: block;
+    padding: 0 11px;
+    line-height: 23px;
+}
+
+.profile-li{
+    padding-top: 2px;
+}
+
+.largenav {
+    display: none;
+}
+
+.smallnav{
+    display: block;
+}
+
+.smallsearch{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.menu{ 
+    cursor: pointer; 
+}
+
+@media (min-width: 1200px){
+.container {
+    width: 1248px !important;
+}
+
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.middleTop {
+        margin: 0 auto;
+    padding: 50px 0;
+    max-width: 1600px;
+    min-width: 1024px;
+    background-color: #000000db;
+
+}
+
+.middle-heading {
+    font-family: "font-bold";
+    font-size: 14px;
+    color: #fff;
+    margin-left: 38px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.middle-content {
+    font-size: 12px;
+    color: #777 !important;
+    list-style-type: none;
+    max-width: 210px;
+}
+
+.middleContent-footer .middleTop div {
+    box-sizing: border-box;
+}
+
+.middleBottom {
+    background-color: #000;
+    text-align: center;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 12px 0;
+}
+
+.middleBottomFooter {
+    text-transform: uppercase;
+    font-size: 59px;
+    color: #344c55;
+    text-align: left;
+    background-color: #000;
+}
+
+.underLineOnHover{
+  color:#fff;
+}
+ 
+.bottomfooter{
+  background-color: #000;
+}
+
+.copyright{
+  color:#fff;
+}
+
+.address{
+   color: #fff;
+}
+
+
+
+.team-grid{
+          background-image: linear-gradient( rgb(255, 200, 0), rgb(255, 200,0));
+    background-repeat: no-repeat;
+    color: #000;
+    overflow-x: hidden
+        }
+      .bnb{
+        background-image: linear-gradient( rgb(255, 200, 0), rgb(255, 200, 0));
+        padding-bottom: 100px;
+        margin-bottom: 0;
+      }
+
+p {
+  color:#fff;
+}
+
+h2 {
+  font-weight:bold;
+  margin-bottom:40px;
+  padding-top:40px;
+  color:#fff;
+}
+
+@media (max-width:767px) {
+h2 {
+    margin-bottom:25px;
+    padding-top:25px;
+    font-size:24px;
+  }
+}
+
+.intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto;
+}
+.intro p {
+  margin-bottom:0;
+}
+
+.people {
+  padding:50px 0;
+  cursor: pointer;
+}
+.item {
+  margin-bottom:30px;
+}
+
+.item .box {
+  text-align:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  height:280px;
+  position:relative;
+  overflow:hidden;
+}
+
+.item .cover {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:rgba(31,148,255,0.75);
+  transition:opacity 0.15s ease-in;
+  opacity:0;
+  padding-top:80px;
+  color:#fff;
+  text-shadow:1px 1px 1px rgba(0,0,0,0.15);
+}
+
+.item:hover .cover {
+  opacity:1;
+}
+
+.item .name {
+  font-weight:bold;
+  margin-bottom:8px;
+}
+
+.item .title {
+  text-transform:uppercase;
+  font-weight:bold;
+  color:#bbd8fb;
+  letter-spacing:2px;
+  font-size:13px;
+  margin-bottom:20px;
+}
+
+.social {
+  font-size:18px;
+}
+ 
+.social a {
+  color:inherit;
+  margin:0 10px;
+  display:inline-block;
+  opacity:0.7;
+}
+.social a:hover {
+  opacity:1;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .largenav {
+        display: block;
+    }
+    .smallnav{
+        display: none;
+    }
+    .smallsearch{
+        margin: 0px;
+    }
+}
+
+
+  
+    /* pad */
+
+    @media screen and (min-width:850px) and (max-width:1200px) {
+    
+    
+    }
+
+    @media screen and (min-width:100px) and (max-width:700px) {
+      .background {
+
+        background-size: cover;
+        padding-top: 150px;
+      }
+
+      .background-text {
+        margin: 0;
+        padding: 0;
+        padding-right: 70px;
+        padding-left: 20px;
+      }
+
+      .background-text h1 {
+        font-size: 30px;
+      }
+
+      .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .dee {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .eco-mart {
+        padding-top: 100px;
+        padding-bottom: 150px;
+      }
+
+      .eco-mart h4 {
+        margin: 0;
+        margin-left: 150px;
+      }
+
+      .eco-mart h2 {
+        margin: 0;
+        margin-left: 60px;
+      }
+
+      .bottom {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .bottom img {
+        width: 400px;
+      }
+
+    }
+
+
+    @media screen and (min-width:800px) and (max-width:1200px) {
+      .cards {
+        display: none;
+      }
+
+      .dee {
+        display: flex;
+        flex-direction: column;
+        margin-left: 150px;
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+ 
+  <div id="navbar">
+    <div class="container">
+        <div class="row row1">
+            <ul class="largenav pull-right">
+               
+                <li class="upper-links"><a class="links" href="http://clashhacks.in/">Login & SignUp</a></li>
+                <li class="upper-links">
+                    <a class="links" href="">
+                        <svg class="" width="16px" height="12px" style="overflow: visible;">
+                            <path d="M8.037 17.546c1.487 0 2.417-.93 2.417-2.417H5.62c0 1.486.93 2.415 2.417 2.415m5.315-6.463v-2.97h-.005c-.044-3.266-1.67-5.46-4.337-5.98v-.81C9.01.622 8.436.05 7.735.05 7.033.05 6.46.624 6.46 1.325v.808c-2.667.52-4.294 2.716-4.338 5.98h-.005v2.972l-1.843 1.42v1.376h14.92v-1.375l-1.842-1.42z" fill="#fff"></path>
+                        </svg>
+                    </a>
+                </li>
+                <li class="upper-links dropdown"><a class="links" href="">More</a>
+                    <ul class="dropdown-menu">
+                        <li class="profile-li"><a class="profile-links" href="">Contact Us</a></li>
+                        <li class="profile-li"><a class="profile-links" href="">Advertise</a></li>
+                        
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="row row2">
+            <div class="col-sm-2">
+                
+                <h1 style="margin:0px;"><span class="largenav">Eco <b class="text-warning">Mart</b> </span></h1>
+            </div>
+            <div class="navbar-search smallsearch col-sm-8 col-xs-11">
+                <div class="row">
+                  <div class="d-flex">
+                    <input class="navbar-input col-xs-11" type="" placeholder="Search for Products, Brands and more" style="width: 900px;" name="">
+                    <button class="navbar-button" style="width: 60px;">
+                        <svg width="15px" height="15px">
+                            <path d="M11.618 9.897l4.224 4.212c.092.09.1.23.02.312l-1.464 1.46c-.08.08-.222.072-.314-.02L9.868 11.66M6.486 10.9c-2.42 0-4.38-1.955-4.38-4.367 0-2.413 1.96-4.37 4.38-4.37s4.38 1.957 4.38 4.37c0 2.412-1.96 4.368-4.38 4.368m0-10.834C2.904.066 0 2.96 0 6.533 0 10.105 2.904 13 6.486 13s6.487-2.895 6.487-6.467c0-3.572-2.905-6.467-6.487-6.467 "></path>
+                        </svg>
+                    </button></div>
+                </div>
+            </div>
+            <div class="cart largenav col-sm-2">
+                <a class="cart-button">
+                    <svg class="cart-svg " width="16 " height="16 " viewBox="0 0 16 16 ">
+                        <path d="M15.32 2.405H4.887C3 2.405 2.46.805 2.46.805L2.257.21C2.208.085 2.083 0 1.946 0H.336C.1 0-.064.24.024.46l.644 1.945L3.11 9.767c.047.137.175.23.32.23h8.418l-.493 1.958H3.768l.002.003c-.017 0-.033-.003-.05-.003-1.06 0-1.92.86-1.92 1.92s.86 1.92 1.92 1.92c.99 0 1.805-.75 1.91-1.712l5.55.076c.12.922.91 1.636 1.867 1.636 1.04 0 1.885-.844 1.885-1.885 0-.866-.584-1.593-1.38-1.814l2.423-8.832c.12-.433-.206-.86-.655-.86 " fill="#fff "></path>
+                    </svg> Cart
+                    <span class="item-number ">2</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light mt-0  pb-3">
+    <div class="container-fluid">
+     
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0 ">
+
+          <li class="nav-item mx-3">
+            <a class="nav-link block text-warning"  aria-current="page" href="./Ecommerce.html"><b> Home</b></a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" aria-current="page" href="./shop.html">Shop</a>
+          </li>
+         
+          <li class="nav-item mx-3">
+            <a class="nav-link " aria-current="page" href="./Pages.html">Pages</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link " aria-current="page" href="./contact.html">Contact</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link " aria-current="page" href="./bill.html">Bill</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+         
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+  
+  <div class="background row animate__animated animate__zoomInDown">
+    <div class="background-text py-5">
+      <h1>TOP DEAL TODAY!<br>SMART PHONE</h1><br>
+      <p>Get up to <b class="text-warning">80% </b> off Today only</p>
+      <button type="button" class="btn btn-warning">Shop Now</button>
+    </div>
+  </div>
+
+
+  <br>
+
+
+  
+
+    <h2 class=" text-center py-5"><b>SUPER DEALS</b> </h2>
+   
+
+    
+    <div class="container bg text-black">
+      <div class="row">
+
+  <div class="pad text-center  col-lg-4 col-md-6 col-sm-12">
+      <div class="bg-warning   p-3">
+          <img src="./pple.svg" class="" width="20%" alt="" ><br><br>
+          <h3>Become A Volunteer</h3><br>
+          <p>Asides shopping, You can also join volunteer to work with us in order to enhance sales in no time</p><br>
+  <br><button type="button" class="btn btn-light">Join Now</button>
+  </div></div>
+
+          <div class="pad text-center  col-lg-4 col-md-6 col-sm-12">
+              <div class="bg-warning p-3">
+              <img src="./money.svg" class="" width="20%" alt=""><br><br>
+              <h3>Easy Buying</h3><br>
+              <p>Buying and selling is now easier than ever..you can simply buy and sell using this website
+              </p><br><br>
+              <button type="button" class="btn btn-light">Open Now</button><br>
+          </div></div>
+
+          <div class="pad text-center col-lg-4 col-md-6 col-sm-12">
+      <div class="p-3 bg-warning">
+            <img src="./handshake-solid.svg" class="" width="25%" alt="">
+            <br><br>
+              <h3>Become A partner</h3><br>
+              <p>After you volunteer, we can join hands together to buy and sell cloths which will be available always
+              </p><br><br>
+              <button type="button" class="btn btn-light"> Learn more</button>
+
+            
+      </div>
+          </div></div>
+      </div>
+  </div><br><br><br>
+
+  <div class="container"> 
+     <div class="nxt">
+    <div class="row">
+    
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-5 bg-light">
+        <img src="./Images/1679018557699.jpg" style="height: 500px;" class="img-fluid" alt="">
+      
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+        <img src="./Images/1679018546796.jpg" style="height: 500px;" class="img-fluid" alt="">
+      
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+        <img src="./Images/1679018551540.jpg" style="height: 500px;" class="img-fluid" alt="">
+      
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+        <img src="./Images/1679018840836.jpg" style="height: 500px;" class="img-fluid" alt="">
+       
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+        <img src="./Images/1679019228145.jpg" style="height: 500px;" class="img-fluid" alt="">
+      
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+        <img src="./Images/1679018840836.jpg" style="height: 500px;"  class="img-fluid" alt="">
+       
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+        <img src="./Images/1679018551540.jpg" style="height: 500px;" class="img-fluid" alt="">
+       
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+        <img src="./Images/1679018690736.jpg" style="height: 500px;" class="img-fluid" alt="">
+       
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+        <img src="./Images/1679018843261.jpg" style="height: 500px;" class="img-fluid" alt="">
+       
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+        <img src="./Images/1679018997672.jpg" style="height: 500px;" class="img-fluid" alt="">
+      
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+        <img src="./Images/1679018976659.jpg" style="height: 500px;" class="img-fluid" alt="">
+      
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+        <img src="./Images/1679018723474.jpg" style="height: 500px;" class="img-fluid" alt="">
+
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+        <img src="./Images/1679018843261.jpg" style="height: 500px;" class="img-fluid" alt="">
+
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+        <img src="./Images/1679018840836.jpg" style="height: 500px;" class="img-fluid" alt="">
+        
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+        <img src="./Images/1679018782474.jpg" style="height: 500px;" class="img-fluid" alt="">
+       </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+<br><br><div>
+<div class="bg-white">
+  <div class="container d-flex justify-content-evenly py-5 bg-white" style="width: 70%;">
+    <div class="bottom d-flex bg-white">
+      <div class="my-5">
+        <h1> Our Services</h1><p class="fs-5 text-black"> We Pride Ourself as the most distinguished and most reliable <br> online shopping arena
+        we have a...
+        lot of clothing material and <br> high class cloths at cheap prizes and different sizes
+        <br>...Buy from us now and get one free clothes ,we have the best cloth in Nigeria and Africa in general.
+        we hop you do enjoy shopping from us..Have a great day</p>
+
+      </div>
+      <img src="./Images/1679018475903.jpg" width="50%" alt="">
+    </div>
+  </div></div>
+  <div class="eco-mart text-center text-white">
+    <h4>Just for you</h4>
+    <h2 class="fs-1 "> Eco mart Shopping Website</h2>
+    <a href="./Ecommerce.html"> <br><button class="text-white btn btn-warning  me-5">Scroll up</button></a>
+  </div>
+</div>
+
+
+
+<div class="team-grid">
+  <div class="container">
+      <div class="intro">
+          <h2 class="text-center">Meet Our Team</h2>
+          <p class="text-center"></p>
+      </div>
+      <div class="row people d-flex justify-content-center">
+          <div class="col-md-4 col-lg-3 item">
+              <div class="box" style="background-image:url(https://i.imgur.com/0Cdlenp.jpg)">
+                  <div class="cover">
+                      <h3 class="name">Tim Cook</h3>
+                      <p class="title">Android Developer</p>
+                      <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 col-lg-3 item">
+              <div class="box" style="background-image:url(https://i.imgur.com/WgXRMDs.jpg)">
+                  <div class="cover">
+                      <h3 class="name">Michael Clarke</h3>
+                      <p class="title">Cricker</p>
+                      <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 col-lg-3 item">
+              <div class="box" style="background-image:url(https://i.imgur.com/0Cdlenp.jpg)">
+                  <div class="cover">
+                      <h3 class="name">Carlos vento</h3>
+                      <p class="title">Business Analyst</p>
+                      <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                  </div>
+              </div>
+          </div>
+         
+      </div>
+  </div>
+</div>
+
+</div>
+
+<div class="bnb">
+
+<h2  class="text-center py-5 bg-light text-warning"> Client Reviews</h2>
+<div class="container bg text-black">
+  <div class="row">
+
+<div class="pad text-center  col-lg-4 col-md-6 col-sm-12">
+  <div class="bg-white border border-dark border-3     p-3">
+    <img src="./Images/project2.jpg" class="review" width="100px" height="100px" alt=""><br><br>
+     
+      <p class="text-dark">Asides shopping, You can also join volunteer to work with us in order to enhance sales in no time. and without stress</p><br>
+<br><button type="button" class="btn btn-dark" style="width: 220px;">Join Now</button><br><br>
+<b class="text-center fs-5">Elle King</b>
+</div></div>
+
+      <div class="pad text-center  col-lg-4 col-md-6 col-sm-12">
+          <div class="bg-white border border-dark border-3   p-3">
+            <img src="./Images/project4.jpg" class="review" width="100px" height="100px" alt=""><br><br>
+         
+          <p class="text-dark">Buying and selling is now easier than ever..you can simply buy and sell using this website without stress
+          </p><br><br>
+          <button type="button" class="btn btn-dark" style="width: 220px;">Open Now</button>
+<br><br><b class="text-center fs-5">Don Heath</b>
+      </div></div>
+
+      <div class="pad text-center col-lg-4 col-md-6 col-sm-12">
+  <div class="p-3 border border-dark border-3   bg-white">
+    <img src="./Images/project5.jpg" class="review" width="100px" height="100px" alt=""><br><br>
+        
+         
+          <p class="text-dark">After you volunteer, we can join hands together to buy and sell cloths which will be available always
+          </p><br><br>
+          <button type="button" class="btn btn-dark" style="width: 220px;"> Learn more</button>
+          <br><br><b class="text-center fs-5">James Carter</b>
+        
+  </div>
+      </div></div>
+  </div><br><br>
+
+
+  <div class="container  text-black">
+    <div class="row">
+
+<div class="pad text-center  col-lg-4 col-md-6 col-sm-12">
+    <div class="bg-white border border-dark border-3   p-3">
+      <img src="./Images/project1.jpg" class="review" width="100px" height="100px" alt=""><br><br>
+      
+        <p class="text-dark">Asides shopping, You can also join volunteer to work with us in order to enhance sales in no time without stress</p><br>
+<br><button type="button" class="btn btn-dark" style="width: 220px;">Join Now</button>
+<br><br><b class="text-center fs-5">Daniel Nwosu</b>
+</div></div>
+
+        <div class="pad text-center  col-lg-4 col-md-6 col-sm-12">
+            <div class="bg-white border border-dark border-3   p-3">
+              <img src="./Images/project3.jpg" class="review" width="100px" height="100px" alt=""><br><br>
+           
+            <p class="text-dark">Buying and selling is now easier than ever..you can simply buy and sell using this website without stress
+            </p><br><br>
+            <button type="button" class="btn btn-dark" style="width: 220px;">Open Now</button>
+            <br><br><b class="text-center fs-5">Seth Rollins</b>
+        </div></div>
+
+        <div class="pad text-center col-lg-4 col-md-6 col-sm-12">
+    <div class="p-3 border border-dark border-3   bg-white">
+      <img src="./Images/project2.jpg" class="review" width="100px" height="100px" alt=""><br><br>
+        
+            
+            <p class="text-dark">After you volunteer, we can join hands together to buy and sell cloths which will be available always
+            </p><br><br>
+            <button type="button" class="btn btn-dark" style="width: 220px;"> Learn more</button>
+            <br><br><b class="text-center fs-5">Jimi Stallone</b>
+          
+    </div>
+        </div></div>
+    </div>
+
+
+
+
+<br><br><br><br><div class="bg-white">
+<h6 class="rev border-bottom b0rder-2 pt-4 px-3 pb-2 bg-warning"> Reviews(1)</h6>
+<h4 class="mx-5 py-5">1 review for "Product Name"</h4>
+<div class="wwe justify-content-between px-5">
+<div class="user">
+  <div class="d-flex">
+  <img src="./Images/project2.jpg" width="50px" height="50px" alt="">
+  <div>
+      <h4>Donald</h4>
+      <small>Super admin</small>
+  </div></div>
+ <br><a style="margin-left: 65px;"> This website is obviously the best shopping website i've seen ...it deserves 5 stars </a>
+</div>
+
+
+
+
+<div>
+  <div>
+    <form action="./ecomart.html" method="post">
+<h4>Leave a review</h4>
+<p>Your email adress should be provided incluiding Your name</p>
+<p>Your Rating*</p>
+<a>Your Review*</a><br>
+<textarea name="" id="" required cols="60" rows="8"></textarea>
+<br>Your Name
+<br><input type="text" style="width: 600px;" required><br><br>
+Your Email 
+<br><input type="email" required style="width: 600px;">
+<br><br><button type="submit" class="btn btn-warning">Post Review</button><br><br><br><br>
+</div></div></div>
+</form>
+
+
+ 
+   
+
+  
+
+
+
+
+
+
+
+
+  <div class="middleTop row ">
+    <div class="footer-inner d-flex">
+       <div class="col-md-2">
+          <div class="middle-heading fs-5">Policy Info</div>
+          <ul class="middle-content ">
+             <li><a class="underLineOnHover" href="#" data-abc="true">Privacy Policy</a></li>
+             <li><a class="underLineOnHover" href="#" data-abc="true">Terms of Sale</a></li>
+             <li><a class="underLineOnHover" href="#" data-abc="true">Terms of Use</a></li>
+             <li><a class="underLineOnHover" href="#" data-abc="true">Report Abuse &amp; Takedown Policy</a></li>
+          </ul>
+       </div>
+       <div class="col-md-2">
+          <div class="middle-heading fs-5">Company</div>
+          <ul class="middle-content">
+             <li><a class="underLineOnHover" href="#" data-abc="true">About Us</a></li>
+             <li><a class="underLineOnHover" href="#" data-abc="true">Core Values</a></li>
+             <li><a class="underLineOnHover" href="#" data-abc="true">Careers</a></li>
+             <li><a class="underLineOnHover" href="#" data-abc="true">Blog</a></li>
+             <li><a class="underLineOnHover" href="#" data-abc="true">Sitemap</a></li>
+          </ul>
+ 
+ 
+       </div>
+       <div class="col-md-2">
+          <div class="middle-heading fs-4">XBusiness</div>
+          <ul class="middle-content">
+             <li><a class="underLineOnHover" href="#" data-abc="true">Shopping App</a></li>
+             <li><a class="underLineOnHover" href="#" data-abc="true">Sell on BBBootstrap</a></li>
+             <li><a class="underLineOnHover" href="#" data-abc="true">Advertise on BBBootstrap</a></li>
+             <li><a class="underLineOnHover" href="mailto:mediarelations@BBBootstrap.com" data-abc="true">Media Enquiries</a></li>
+             <li><a class="underLineOnHover" href="#" data-abc="true">Be an Affiliate</a></li>
+          </ul>
+       </div>
+       <div class="col-md-2">
+          <div class="middle-heading fs-5">Need Help ?</div>
+          <ul class="middle-content">
+             <li><a class="underLineOnHover" href="#" data-abc="true">FAQ</a></li>
+             <li><a class="underLineOnHover" href="#" data-abc="true">Contact Us</a></li>
+             <li><a class="underLineOnHover" href="#" data-abc="true">Online Shopping</a></li>
+          </ul>
+          <i class="originalalityfooterIcon footerIconsImg hide"></i>
+       </div>
+ 
+       <div class="col-md-4 fs-5">
+          <div class="middle-heading fs-5" style="margin-left: 0px;">About us</div>
+           
+          <span class="address">Plot No A5 ,1st Floor, Complex, Industrial Area, Delhi, 110095</span>
+ 
+          <div class="">
+             <h5 style="color: #EF5350;">Social connect</h5>
+             <img src="https://img.icons8.com/color/24/000000/facebook.png">
+             <img src="https://img.icons8.com/office/20/000000/instagram-new.png">
+             <img src="https://img.icons8.com/color/24/000000/twitter-squared.png">
+             
+ 
+          </div>
+       </div>
+       
+    </div>
+ </div>
+    
+         
+          <div class="middleBottom clearfix">
+ 
+             <div class="row">
+                <div class="col-md-2"><img src="https://img.icons8.com/ultraviolet/40/000000/security-ssl.png"></div>
+                <div class="col-md-2"><img src="https://img.icons8.com/dusk/40/000000/card-security.png"></div>
+                <div class="col-md-2"><img src="https://img.icons8.com/office/40/000000/remove-key.png"></div>
+                <div class="col-md-2"><img src="https://img.icons8.com/color/40/000000/lets-encrypt.png"></div>
+                <div class="col-md-2"><img src="https://img.icons8.com/office/40/000000/hips.png"></div>
+                <div class="col-md-2"><img src="https://img.icons8.com/cotton/40/000000/cloud-lock.png"></div>
+ 
+                
+             </div>
+ 
+       
+          </div>
+ 
+          <div class="clearfix bottomfooter">
+            <div class="container">
+                <div class="row">
+                <div class="col-md-6" style="margin-top:10px;">
+                   <span class="copyright">Copyright &copy; 2019, BBBootstrap.com All Rights Reserved</span>
+                </div>
+ 
+                
+ 
+                <div class="col-md-6">
+                   <div class="pull-right">
+                       <img class="pull-right" src="https://img.icons8.com/officel/40/000000/mastercard.png">
+                       <img class="pull-right" src="https://img.icons8.com/color/40/000000/visa.png">
+                       <img class="pull-right" src="https://img.icons8.com/color/40/000000/amex.png">
+                       <img class="pull-right" src="https://img.icons8.com/color/40/000000/discover.png">
+ 
+                   </div>
+                   
+                </div>
+                
+ 
+                
+             </div>
+ 
+            </div>
+             
+ 
+       
+          </div>
+          
+</body>
+
+</html>
